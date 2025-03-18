@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -26,6 +30,68 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.main_card {
+  background: white;
+  padding: 20px;
+  width: 60%;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tool_card {
+  display: grid;
+  background: #eeeeee;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-radius: 1px;
+  padding: 5px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  text-align: right;
+  /* padding: -5px; */
+}
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding: 2px;
+}
+
+.map_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-radius: 1px;
+}
+.map {
+  width: 100%;
+  border-radius: 1px;
+}
+
+.check_container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.right_container {
+  padding: 0px;
+  margin: 0px;
 }
 
 @keyframes App-logo-spin {
