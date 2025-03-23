@@ -1,0 +1,25 @@
+{
+  "places": [
+    {
+      "name": "Japanese Garden",
+      "latitude": 30.2672,
+      "longitude": -97.7431,
+      "description": "A beautiful Japanese garden in the heart of Austin.",
+      "type": "Parks"
+    },
+    {
+      "name": "Sushi Restaurant",
+      "latitude": 30.2580,
+      "longitude": -97.7484,
+      "description": "Authentic sushi experience with a modern twist.",
+      "type": "Restaurants"
+    },
+    {
+      "name": "Cultural Center",
+      "latitude": 30.2725,
+      "longitude": -97.7400,
+      "description": "A center for cultural events and Japanese art exhibits.",
+      "type": "Cultural"
+    }
+  ]
+}
