@@ -69,7 +69,7 @@ function App() {
             <FormControlLabel
               className="check_container"
               control={<Checkbox sx={{ p: 0.5 }} />}
-              label="Pets Allowed"
+              label="Dogs Allowed"
             />
             <FormControlLabel
               className="check_container"
@@ -87,13 +87,12 @@ function App() {
               >
                 <MenuItem value="Sightseeing/Attractions">Sightseeing/Attractions</MenuItem>
                 <MenuItem value="Restaurants/Cafes">Restaurants/Cafes</MenuItem>
+                <MenuItem value="Grocery/Specialty">Grocery/Specialty</MenuItem>
                 <MenuItem value="Shopping">Shopping</MenuItem>
                 <MenuItem value="Entertainment/Nightlife">Entertainment/Nightlife</MenuItem>
                 <MenuItem value="Beauty/Wellness">Beauty/Wellness</MenuItem>
-                <MenuItem value="Grocery/Specialty">Grocery Specialty</MenuItem>
-                <MenuItem value="Hangout Spots">Hangout Spots</MenuItem>
                 <MenuItem value="Sports/Recreation">Sports/Recreation</MenuItem>
-                <MenuItem value="Study-Work Spaces">Study-Work Spaces</MenuItem>
+                <MenuItem value="Work/Study Spaces">Work/Study Spaces</MenuItem>
               </Select>
             </FormControl>
           </div>

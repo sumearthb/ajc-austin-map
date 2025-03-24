@@ -6,7 +6,7 @@
       "longitude": -97.70588,
       "description": "It's a nice quick walk, there are ice cream shop and bars, Ramen restaurant near by. They have farmers market every Sunday.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free"
 
     },
     {
@@ -39,7 +39,7 @@
       "longitude": -97.74171,
       "description": "Dating from 1886, this opulent Downtown hotel is within a 12-minute walk of the Texas State Capitol and the Austin Convention Center.",
       "type": "Sightseeing/Attractions",
-      "tags": "Pets Allowed"
+      "tags": "Dogs Allowed"
     },
     {
       "name": "Mt Bonnell",
@@ -47,7 +47,7 @@
       "longitude": -97.77321,
       "description": "5.1-acre park known for its elevated summit offering sweeping views of Lake Austin.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free"
     },
     {
       "name": "Lady Bird Johnson Wildflower Center",
@@ -71,7 +71,7 @@
       "longitude": -97.77220,
       "description": "31-acre garden in Zilker Park with plants, ponds & trails, plus educational programs for kids.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Cathedral of Junk",
@@ -95,7 +95,7 @@
       "longitude": -97.81269,
       "description": "This popular urban natural area offers opportunities for biking, hiking, swimming & rock climbing.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free"
     },
     {
       "name": "The Long Center for the Performing Arts",
@@ -119,7 +119,7 @@
       "longitude": -97.77296,
       "description": "351-acre, urban park with botanical gardens, a spring-fed pool, a theater & sports facilities.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free"
     },
     {
       "name": "Enchanted Rock",
@@ -135,7 +135,7 @@
       "longitude": -98.25776,
       "description": "5,200-acre park with hiking & horseback riding trails, campsites, river swimming & scenic vistas.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Lost Maples State Natural Area",
@@ -143,7 +143,7 @@
       "longitude": -99.57061,
       "description": "Birds & wildlife, plus limestone canyons, plateaus & fall foliage along a river valley.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Botanical Gates of Paradise",
@@ -167,7 +167,7 @@
       "longitude": -97.78417,
       "description": "Beans flame-roasted on-site, plus bakery goods, frequent live music & patio seating on Lake Austin. They hold a wonderful light-up event in the winter.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Fonda San Miguel",
@@ -183,7 +183,7 @@
       "longitude": -97.74096,
       "description": "This gastropub offers a broad craft beer selection & French-inspired fare in a rustic-chic setting.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Terry Black's Barbecue",
@@ -207,7 +207,7 @@
       "longitude": -97.72630,
       "description": "Dog-friendly stop with late hours & outdoor seating focusing on creative highballs & Japanese curry.",
       "type": "Restaurants/Cafes",
-      "tags": "Pets Allowed"
+      "tags": "Dogs Allowed"
     },
     {
       "name": "Fukumoto",
@@ -231,7 +231,7 @@
       "longitude": -97.71552,
       "description": "Kyoko Coffee is a Japanese-inspired, kawaii-themed coffee shop rooted in omotenashi—the Japanese philosophy of wholehearted hospitality.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Miyo Yakitori & Sushi",
@@ -255,7 +255,7 @@
       "longitude": -97.82244,
       "description": "Asian-owned family-style restaurant.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Kanji Ramen",
@@ -295,7 +295,7 @@
       "longitude": -97.76201,
       "description": "Upscale Japanese restaurant that serves sushi, cocktails & more amid a sleek, grey & black space.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "888 Pan Asian Restaurant",
@@ -303,7 +303,7 @@
       "longitude": -97.73003,
       "description": "A menu true to its namesake with all things Asian from pho to pad thai, plus a buffet.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
     },
     {
       "name": "Bamboo Garden Wok 'N' Grill",
@@ -343,7 +343,336 @@
       "longitude": -98.01337,
       "description": "Venerable outpost serving Texas-style BBQ with famous sauces & rubs in a relaxed, rustic setting.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Pets Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "Book People",
+      "latitude": 30.27206,
+      "longitude": -97.75310,
+      "description": "Large, locally owned bookstore with regular readings plus coffee bar & quirky gift items for sale.",
+      "type": "Shopping",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Taste ATX",
+      "latitude": 30.20220,
+      "longitude": -97.66529,
+      "description": "Souvenir store inside the Austin-Bergstrom International Airport.",
+      "type": "Shopping",
+      "tags": ""
+    },
+    {
+      "name": "Austin Article",
+      "latitude": 30.20212,
+      "longitude": -97.66679,
+      "description": "Gift shop featuring varied wares including snacks, drinks, books, electronics & apparel.",
+      "type": "Shopping",
+      "tags": ""
+    },
+    {
+      "name": "Spec's Wines, Spirits & Finer Foods",
+      "latitude": 30.32256,
+      "longitude": -97.71347,
+      "description": "Family-owned chain retailer with a large selection of wine, liquor & beer, plus snacks.",
+      "type": "Shopping",
+      "tags": ""
+    },
+    {
+      "name": "Spec's Wines, Spirits & Finer Foods",
+      "latitude": 30.32256,
+      "longitude": -97.71347,
+      "description": "Family-owned chain retailer with a large selection of wine, liquor & beer, plus snacks. I would recommend Toki whiskey, which Suntory sells overseas.",
+      "type": "Shopping",
+      "tags": ""
+    },
+    {
+      "name": "Asahi Imports",
+      "latitude": 30.32256,
+      "longitude": -97.71347,
+      "description": "Compact circa-1967 market selling frozen & packaged groceries, cookware & gifts from Japan. Starting this year they are selling Dassai Blue.",
+      "type": "Grocery/Specialty",
+      "tags": ""
+    },
+    {
+      "name": "Kinokuniya Bookstore",
+      "latitude": 30.33753,
+      "longitude": -97.71739,
+      "description": "Japanese-based retailer known for its collection of Asian books & magazines.",
+      "type": "Shopping",
+      "tags": ""
+    },
+    {
+      "name": "Daiso",
+      "latitude": 30.33629,
+      "longitude": -97.71683,
+      "description": "Japanese variety-store chain featuring Japanese beauty products, housewares & snacks.",
+      "type": "Shopping",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "H Mart Austin",
+      "latitude": 30.47974,
+      "longitude": -97.79878,
+      "description": "Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.",
+      "type": "Grocery/Specialty",
+      "tags": ""
+    },
+    {
+      "name": "Trader Joe's",
+      "latitude": 30.26778,
+      "longitude": -97.75268,
+      "description": "Grocery chain with a variety of signature items, plus produce, dairy & more (most sell wine & beer).",
+      "type": "Shopping",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "University Co-op",
+      "latitude": 30.28623,
+      "longitude": -97.74194,
+      "description": "Large store selling used text books, school supplies & a wide range of Texas Longhorn merchandise.",
+      "type": "Shopping",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "HiTunes",
+      "latitude": 30.34789,
+      "longitude": -97.71483,
+      "description": "A karaoke center with private party rooms seating from 6 to 20, with a BYO food & drink policy.",
+      "type": "Entertainment/Nightlife",
+      "tags": ""
+    },
+    {
+      "name": "Texas Saké Company",
+      "latitude": 30.21591,
+      "longitude": -97.76218,
+      "description": "We use only the highest quality ingredients in our saké: premium Calrose rice that is polished to 70%, home-grown koji, classic saké yeast #9, and filtered Austin water.",
+      "type": "Entertainment/Nightlife",
+      "tags": ""
+    },
+    {
+      "name": "C-Boy's Heart & Soul",
+      "latitude": 30.24362,
+      "longitude": -97.75218,
+      "description": "Bi-level club hosting weekend performances on the main floor with a Japanese-American bar upstairs.",
+      "type": "Entertainment/Nightlife",
+      "tags": ""
+    },
+    {
+      "name": "Gibson Street Bar",
+      "latitude": 30.25507,
+      "longitude": -97.76190,
+      "description": "Chic watering hole with black banquettes featuring craft beer, game nights & a food truck out front.",
+      "type": "Entertainment/Nightlife",
+      "tags": "Dogs Allowed"
+    },
+    {
+      "name": "Monks Jazz Club",
+      "latitude": 30.25833,
+      "longitude": -97.71452,
+      "description": "Live jazz in Austin Texas.",
+      "type": "Entertainment/Nightlife",
+      "tags": ""
+    },
+    {
+      "name": "The Continental Club",
+      "latitude": 30.25057,
+      "longitude": -97.74912,
+      "description": "Rock, country, jazz & blues acts, national & local, are found at this legendary South Congress club.",
+      "type": "Entertainment/Nightlife",
+      "tags": ""
+    },
+    {
+      "name": "Misha's Beauty",
+      "latitude": 30.44630,
+      "longitude": -97.78628,
+      "description": "Eyelash extensions, eyelash perms, permanent makeup, lipstick, etc. available in Japanese (English).",
+      "type": "Beauty/Wellness",
+      "tags": ""
+    },
+    {
+      "name": "Shine Salon and Spa",
+      "latitude": 30.48693,
+      "longitude": -97.67888,
+      "description": "Services available in Japanese (English)",
+      "type": "Beauty/Wellness",
+      "tags": ""
+    },
+    {
+      "name": "Austin Traditional Japanese Acupuncture LLC",
+      "latitude": 30.23713,
+      "longitude": -97.76310,
+      "description": "Traditional Japanese acupuncture practitioner located in Austin.",
+      "type": "Beauty/Wellness",
+      "tags": ""
+    },
+    {
+      "name": "Moontower Dental",
+      "latitude": 30.31465,
+      "longitude": -97.71430,
+      "description": "Moontower Dental is a locally-owned and operated family dental practice new to Austin, Texas, and we are located on Airport Boulevard and 53rd Street.",
+      "type": "Beauty/Wellness",
+      "tags": ""
+    },
+    {
+      "name": "99 Ranch Market",
+      "latitude": 30.33772,
+      "longitude": -97.71789,
+      "description": "Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.",
+      "type": "Grocery/Specialty",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Hang Yang Market",
+      "latitude": 30.33633,
+      "longitude": -97.72104,
+      "description": "Small supermarket with a range of Korean foods from marinated meats to kimchi to prepared meals.",
+      "type": "Grocery/Specialty",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Central Market",
+      "latitude": 30.30766,
+      "longitude": -97.73988,
+      "description": "Gourmet veggies, meats & wine, plus an in-house cafe, food events & live music in a vast space.",
+      "type": "Grocery/Specialty",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "MT Supermarket",
+      "latitude": 30.37805,
+      "longitude": -97.68593,
+      "description": "Sprawling, family-owned store selling international groceries, with a focus on products from Asia.",
+      "type": "Grocery/Specialty",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Hana World Market",
+      "latitude": 30.41296,
+      "longitude": -97.68677,
+      "description": "Sizable Asian supermarket with produce, meat, seafood, packaged goods & an on-site food court.",
+      "type": "Grocery/Specialty",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "CHOO SANDO",
+      "latitude": 30.41296,
+      "longitude": -97.68677,
+      "description": "Asian-owned Japanese restaurant.",
+      "type": "Restaurants/Cafes",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "OMG Squee",
+      "latitude": 30.41296,
+      "longitude": -97.68677,
+      "description": "Quaint stop offering taiyaki sundaes, mochi donuts, macarons & cheesecake, plus fruit & milk teas.",
+      "type": "Restaurants/Cafes",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Tapioca House",
+      "latitude": 30.28245,
+      "longitude": -97.74230,
+      "description": "Established in March of 2002, Tapioca House has been serving genuine bubble drinks, meals, and snacks to our customers. Located in Austin, we bring a bit of Taiwanese and Vietnamese culture throughout the state of Texas.",
+      "type": "Restaurants/Cafes",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "The Crescent",
+      "latitude": 30.33675,
+      "longitude": -97.71711,
+      "description": "Neighborhood shopping complex offering eateries, a grocery store, a bakeshop & speciality boutiques.",
+      "type": "Restaurants/Cafes",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Dark Circle Sumo",
+      "latitude": 30.24834,
+      "longitude": -97.77345,
+      "description": "Sumo club. The owner Justin is a great guy!!",
+      "type": "Sports/Recreation",
+      "tags": ""
+    },
+    {
+      "name": "Cedar Park Dojo",
+      "latitude": 30.24834,
+      "longitude": -97.77345,
+      "description": "Take classes with Austin Komei Jyuku who are preserving classical martial sword art.",
+      "type": "Sports/Recreation",
+      "tags": ""
+    },
+    {
+      "name": "Old Settlers Park",
+      "latitude": 30.53638,
+      "longitude": -97.62615,
+      "description": "645-acre park offers recreational activities & picnic space, plus 6 complexes for a range of sports.",
+      "type": "Sports/Recreation",
+      "tags": "Kid-Friendly, Dogs Allowed, Free"
+    },
+    {
+      "name": "Monkey Nest Coffee",
+      "latitude": 30.32779,
+      "longitude": -97.73959,
+      "description": "Artsy hangout serving fair-trade coffee & healthy eats in a large space with free WiFi & live music.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "Flightpath Coffeehouse",
+      "latitude": 30.31376,
+      "longitude": -97.71989,
+      "description": "This hip, art-adorned coffee shop serving locally sourced snacks is known for its tranquil vibe.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "Epoch Coffee",
+      "latitude": 30.31861,
+      "longitude": -97.72450,
+      "description": "Cool, vibrant small-chain cafe featuring nibbles, tea & carefully brewed espresso drinks.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "Twin Oaks Branch, Austin Public Library",
+      "latitude": 30.31861,
+      "longitude": -97.72450,
+      "description": "Public library.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Jo's Coffee",
+      "latitude": 30.25106,
+      "longitude": -97.74938,
+      "description": "La Colombe coffee, specialty beverages & snacks in a down-to-earth, convivial locale.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "Quack's 43rd Street Bakery",
+      "latitude": 30.30470,
+      "longitude": -97.72661,
+      "description": "Hip coffeehouse with an easygoing vibe selling baked goods, panini & espresso drinks.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly"
+    },
+    {
+      "name": "Summer Moon Coffee",
+      "latitude": 30.35568,
+      "longitude": -97.73026,
+      "description": "Founded by closely-knit family and friends in Texas Hill Country, we’ve always had one goal in mind: to create a distinctive, out-of-this-world, experience that people drive across town for. An experience to be shared through coffee + atmospheres that inspire the warmth of cozy evenings under a summer moon.",
+      "type": "Work/Study Spaces",
+      "tags": "Kid-Friendly, Dogs Allowed"
+    },
+    {
+      "name": "University of Texas at Austin",
+      "latitude": 30.28512,
+      "longitude": -97.73359,
+      "description": "Higher education institution with a robust research program, set on a large campus with 4 museums.",
+      "type": "Work/Study Spaces",
+      "tags": ""
     }
   ]
+  
 }
