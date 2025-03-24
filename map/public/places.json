@@ -6,7 +6,7 @@
       "longitude": -97.70588,
       "description": "It's a nice quick walk, there are ice cream shop and bars, Ramen restaurant near by. They have farmers market every Sunday.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Dogs Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free Admission"
 
     },
     {
@@ -15,7 +15,7 @@
       "longitude": -97.74033,
       "description": "It may be a cliché, but I would like everyone to visit the Texas Capitol at least once. It may be similar to Tokyo Tower for people in Tokyo, but it is taller than the White House and the interior is also wonderful, so I recommend it.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Free"
+      "tags": "Kid-Friendly, Free Admission"
     },
     {
       "name": "Bob Bullock History Museum",
@@ -47,7 +47,7 @@
       "longitude": -97.77321,
       "description": "5.1-acre park known for its elevated summit offering sweeping views of Lake Austin.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Dogs Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free Admission"
     },
     {
       "name": "Lady Bird Johnson Wildflower Center",
@@ -95,7 +95,7 @@
       "longitude": -97.81269,
       "description": "This popular urban natural area offers opportunities for biking, hiking, swimming & rock climbing.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Dogs Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free Admission"
     },
     {
       "name": "The Long Center for the Performing Arts",
@@ -119,7 +119,7 @@
       "longitude": -97.77296,
       "description": "351-acre, urban park with botanical gardens, a spring-fed pool, a theater & sports facilities.",
       "type": "Sightseeing/Attractions",
-      "tags": "Kid-Friendly, Dogs Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free Admission"
     },
     {
       "name": "Enchanted Rock",
@@ -159,7 +159,7 @@
       "longitude": -97.72375,
       "description": "This is a collaboration between the famous Texas BBQ restaurant Franklin Barbecue and Japanese restaurant Uchi, and they sometimes serve ramen.",
       "type": "Restaurants/Cafes",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Mozart's Coffee Roasters",
@@ -207,7 +207,7 @@
       "longitude": -97.72630,
       "description": "Dog-friendly stop with late hours & outdoor seating focusing on creative highballs & Japanese curry.",
       "type": "Restaurants/Cafes",
-      "tags": "Dogs Allowed"
+      "tags": "Dogs Allowed, Japanese"
     },
     {
       "name": "Fukumoto",
@@ -215,7 +215,7 @@
       "longitude": -97.73179,
       "description": "Japanese izakaya serving skewers, sushi & cooked seafood imported from Japan in a lofty, hip space.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Saltgrass Steak House",
@@ -231,7 +231,7 @@
       "longitude": -97.71552,
       "description": "Kyoko Coffee is a Japanese-inspired, kawaii-themed coffee shop rooted in omotenashi—the Japanese philosophy of wholehearted hospitality.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Dogs Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed, Japanese"
     },
     {
       "name": "Miyo Yakitori & Sushi",
@@ -239,7 +239,7 @@
       "longitude": -97.76172,
       "description": "Serving traditional Japanese cuisine along with our Yakitori and Sushi. Udon, Tonkatsu , Bento, and Ramen, are a few example of the cuisines we serve. ",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "KANE",
@@ -247,7 +247,7 @@
       "longitude": -97.83426,
       "description": "Asian-owned sushi restaurant.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Don Don Express",
@@ -255,7 +255,7 @@
       "longitude": -97.82244,
       "description": "Asian-owned family-style restaurant.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Dogs Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed, Japanese"
     },
     {
       "name": "Kanji Ramen",
@@ -263,7 +263,7 @@
       "longitude": -97.76509,
       "description": "Noodles & small plates are served at this snug shop featuring veggie options & colorful wall art.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "85°C Bakery Cafe",
@@ -279,7 +279,7 @@
       "longitude": -97.71719,
       "description": "An array of sushi and other Japanese dishes rotates to diners' booths on a conveyor belt.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Matsuba Ramen",
@@ -287,7 +287,7 @@
       "longitude": -97.72012,
       "description": "Matsuba is here to satisfy your cravings with rich, flavorful paitan ramen, made with a chicken broth that takes 20 hours of love and care that'll warm your soul (and your belly).",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Soto",
@@ -295,7 +295,7 @@
       "longitude": -97.76201,
       "description": "Upscale Japanese restaurant that serves sushi, cocktails & more amid a sleek, grey & black space.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly, Dogs Allowed"
+      "tags": "Kid-Friendly, Dogs Allowed, Japanese"
     },
     {
       "name": "888 Pan Asian Restaurant",
@@ -319,7 +319,7 @@
       "longitude": -97.71446,
       "description": "Trendy sushi joint with homestyle Japanese plates in a stylish, bamboo-accented space.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Uchi Austin",
@@ -327,7 +327,7 @@
       "longitude": -97.75980,
       "description": "Sushi plus creative hot & cold dishes from chef Tyson Cole in a stylish, sophisticated setting.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Uchiko Austin",
@@ -335,7 +335,7 @@
       "longitude": -97.74007,
       "description": "Offshoot of the famed Uchi restaurant with upscale sushi & small plates in a farmhouse-chic space.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "The Salt Lick BBQ",
@@ -378,20 +378,12 @@
       "tags": ""
     },
     {
-      "name": "Spec's Wines, Spirits & Finer Foods",
-      "latitude": 30.32256,
-      "longitude": -97.71347,
-      "description": "Family-owned chain retailer with a large selection of wine, liquor & beer, plus snacks. I would recommend Toki whiskey, which Suntory sells overseas.",
-      "type": "Shopping",
-      "tags": ""
-    },
-    {
       "name": "Asahi Imports",
       "latitude": 30.32256,
       "longitude": -97.71347,
       "description": "Compact circa-1967 market selling frozen & packaged groceries, cookware & gifts from Japan. Starting this year they are selling Dassai Blue.",
       "type": "Grocery/Specialty",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Kinokuniya Bookstore",
@@ -399,7 +391,7 @@
       "longitude": -97.71739,
       "description": "Japanese-based retailer known for its collection of Asian books & magazines.",
       "type": "Shopping",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Daiso",
@@ -407,7 +399,7 @@
       "longitude": -97.71683,
       "description": "Japanese variety-store chain featuring Japanese beauty products, housewares & snacks.",
       "type": "Shopping",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "H Mart Austin",
@@ -415,7 +407,7 @@
       "longitude": -97.79878,
       "description": "Asian grocery store chain supplying imported packaged foods & housewares plus ready-to-serve meals.",
       "type": "Grocery/Specialty",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Trader Joe's",
@@ -447,7 +439,7 @@
       "longitude": -97.76218,
       "description": "We use only the highest quality ingredients in our saké: premium Calrose rice that is polished to 70%, home-grown koji, classic saké yeast #9, and filtered Austin water.",
       "type": "Entertainment/Nightlife",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "C-Boy's Heart & Soul",
@@ -455,7 +447,7 @@
       "longitude": -97.75218,
       "description": "Bi-level club hosting weekend performances on the main floor with a Japanese-American bar upstairs.",
       "type": "Entertainment/Nightlife",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Gibson Street Bar",
@@ -487,7 +479,7 @@
       "longitude": -97.78628,
       "description": "Eyelash extensions, eyelash perms, permanent makeup, lipstick, etc. available in Japanese (English).",
       "type": "Beauty/Wellness",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Shine Salon and Spa",
@@ -495,7 +487,7 @@
       "longitude": -97.67888,
       "description": "Services available in Japanese (English)",
       "type": "Beauty/Wellness",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Austin Traditional Japanese Acupuncture LLC",
@@ -503,7 +495,7 @@
       "longitude": -97.76310,
       "description": "Traditional Japanese acupuncture practitioner located in Austin.",
       "type": "Beauty/Wellness",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Moontower Dental",
@@ -519,7 +511,7 @@
       "longitude": -97.71789,
       "description": "Asian supermarket chain carrying imported specialty foods plus meat, seafood, produce & baked goods.",
       "type": "Grocery/Specialty",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Hang Yang Market",
@@ -527,7 +519,7 @@
       "longitude": -97.72104,
       "description": "Small supermarket with a range of Korean foods from marinated meats to kimchi to prepared meals.",
       "type": "Grocery/Specialty",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Central Market",
@@ -543,7 +535,7 @@
       "longitude": -97.68593,
       "description": "Sprawling, family-owned store selling international groceries, with a focus on products from Asia.",
       "type": "Grocery/Specialty",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Hana World Market",
@@ -551,7 +543,7 @@
       "longitude": -97.68677,
       "description": "Sizable Asian supermarket with produce, meat, seafood, packaged goods & an on-site food court.",
       "type": "Grocery/Specialty",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "CHOO SANDO",
@@ -559,7 +551,7 @@
       "longitude": -97.68677,
       "description": "Asian-owned Japanese restaurant.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "OMG Squee",
@@ -567,7 +559,7 @@
       "longitude": -97.68677,
       "description": "Quaint stop offering taiyaki sundaes, mochi donuts, macarons & cheesecake, plus fruit & milk teas.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Tapioca House",
@@ -583,7 +575,7 @@
       "longitude": -97.71711,
       "description": "Neighborhood shopping complex offering eateries, a grocery store, a bakeshop & speciality boutiques.",
       "type": "Restaurants/Cafes",
-      "tags": "Kid-Friendly"
+      "tags": "Kid-Friendly, Japanese"
     },
     {
       "name": "Dark Circle Sumo",
@@ -591,7 +583,7 @@
       "longitude": -97.77345,
       "description": "Sumo club. The owner Justin is a great guy!!",
       "type": "Sports/Recreation",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Cedar Park Dojo",
@@ -599,7 +591,7 @@
       "longitude": -97.77345,
       "description": "Take classes with Austin Komei Jyuku who are preserving classical martial sword art.",
       "type": "Sports/Recreation",
-      "tags": ""
+      "tags": "Japanese"
     },
     {
       "name": "Old Settlers Park",
@@ -607,7 +599,7 @@
       "longitude": -97.62615,
       "description": "645-acre park offers recreational activities & picnic space, plus 6 complexes for a range of sports.",
       "type": "Sports/Recreation",
-      "tags": "Kid-Friendly, Dogs Allowed, Free"
+      "tags": "Kid-Friendly, Dogs Allowed, Free Admission"
     },
     {
       "name": "Monkey Nest Coffee",

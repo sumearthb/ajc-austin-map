@@ -1,9 +1,28 @@
+@font-face {
+  font-family: '秀英角ゴシック銀 B JIS2004';
+  font-weight: bold;
+  src: url("//wf.typesquare.com/3/tsst/dist/ja/ts?condition=1360b8b605e8fe0ce91117ec66a5775d&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=austinjapancommunity.org%2F&fonts[id]=1974&fonts[str]=JicoKSwtLzAxMjM0NTc4OUFDREVGR0hJSkxNTk9QUlNUV1lhYmNkZWZnaGlsbW5vcHJzdHV2d3h54oCT4pyo44CF44CO44CP44Cc44GE44GK44GP44GT44GU44GV44Gb44Gg44Gh44Gp44Gu44Gv44G444KA44KC44KI44KJ44KK44KP44KS44Ki44Kj44Kk44Kn44Kp44Kq44Ks44Kv44K444K544K%2F44OD44OG44OI44OK44OL44OQ44OU44OV44OX44Oa44Oe44Of44Og44Oh44Op44Oq44Or44Oz44O744O85LiA5LiK5LqV5Lq65LuY5Lya5L2%2F5YCL5YmH5YuV5Y675ZCI5ZGK5ZG95ZOh5ZWP5aCx5a%2BE5bm05bqm5oiR5ou25oyo5paw5pel5pil5pyI5pys5q2j5rOV5rS75rud5ryU55m756eA6Iqx6Iux6KaL6KaP6Kan6Kqe6Kyb6YCy6YGO6YeO6Yyy6ZW36ZmE8J%2BMuPCfjo%2Fwn46177yI77yJ");
+}
+
+@font-face {
+  font-family: 'UD新ゴ R JIS2004';
+  font-weight: Bold;
+  src: url("//wf.typesquare.com/3/tsst/dist/ja/ts?condition=1360b8b605e8fe0ce91117ec66a5775d&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=austinjapancommunity.org%2F&fonts[id]=2257&fonts[str]=JicoKSwtLi8wMTIzNDU2Nzg5OkFCQ0RGSEtMTU5PUFJTVFhhYmNkZWhpa2xtbm9wcnN0dXZ3eQ%3D%3D");
+}
+
+@font-face {
+  font-family: '秀英角ゴシック銀 B JIS2004';
+  font-weight: Bold;
+  src: url("//wf.typesquare.com/3/tsst/dist/ja/ts?condition=1360b8b605e8fe0ce91117ec66a5775d&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=austinjapancommunity.org%2F&fonts[id]=1974&fonts[str]=JicoKS8wMjM0NUFDREVGR0hJSkxNTk9QUlNUV2FiY2RlZmdoaWxtbm9wcnN0dXZ3eHnigJPinKjjgIXjgI7jgI%2FjgYTjgYrjgY%2FjgZPjgZTjgZXjgZvjgaDjgaHjganjga7jga%2FjgbjjgoDjgoLjgonjgo%2FjgpLjgqLjgqPjgqTjgqfjgqnjgqrjgqzjgq%2Fjgrjjgrnjgr%2Fjg4Pjg4bjg4jjg4rjg4vjg5Djg5Tjg5Xjg5fjg5rjg57jg5%2Fjg6Djg6Hjg6njg6rjg6vjg7Pjg7vjg7zkuIrkupXkurrku5jkvJrkvb%2FlgIvliYflkIjlkb3lk6HllY%2Flr4TlubTluqbmiJHml6XmnIjmnKzms5Xnmbvnp4DoirHoi7Hopovopo%2Fopqfoqp7pgLLpjLLpmYTwn4y48J%2BOj%2FCfjrXvvIjvvIk%3D");
+}
+
 .App {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'UD新ゴ R JIS2004', sans-serif;
 }
 
 .App-logo {
@@ -47,30 +66,41 @@
   text-align: center;
   font-size: 24px;
   font-weight: bold;
+  font-family: 'UD新ゴ R JIS2004', sans-serif;
 }
 
 .tool_card {
   display: grid;
   background: #eeeeee;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
   gap: 20px;
   border-radius: 1px;
   padding: 5px;
+  /* border: 1px solid blue; */
+  
 }
 
 .left-col {
   display: flex;
-  flex-direction: column;
-  /* gap: 10px; */
+  flex-direction: row;
+  align-items: flex-start;
   text-align: right;
-  /* padding: -5px; */
+  justify-content: center;
+  height: 100px;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+  height: 30px;
 }
+
 .right-col {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  text-align: left;
+  text-align: center;
   padding: 2px;
+  justify-content: center;
 }
 
 .map_container {
@@ -87,11 +117,24 @@
 .check_container {
   padding: 0px;
   margin: 0px;
+  height: 24px;
+}
+
+.check_container .MuiTypography-root {
+  font-size: 0.875rem;
+  line-height: 1;
 }
 
 .right_container {
   padding: 0px;
   margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.drop_down {
+  width: 50vh;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {

@@ -9,7 +9,7 @@ import Select from '@mui/material/Select';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [type, setType] = useState('');
+  const [type, setType] = useState('Show All  全て表示');
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
@@ -58,43 +58,52 @@ function App() {
   return (
     <div className="App">
       <div className="main_card">
-        <div className="title">Austin Recommendations Map</div>
+        <div className="title">オースティンのおすすめ地図 <br /> Austin Recommendations Map</div>
         <div className="tool_card">
-          <div className="left-col">
-            <FormControlLabel
-              className="check_container"
-              control={<Checkbox sx={{ p: 0.5 }} />}
-              label="Kid-Friendly"
-            />
-            <FormControlLabel
-              className="check_container"
-              control={<Checkbox sx={{ p: 0.5 }} />}
-              label="Dogs Allowed"
-            />
-            <FormControlLabel
-              className="check_container"
-              control={<Checkbox sx={{ p: 0.5 }} />}
-              label="Free"
-            />
-          </div>
+          
           <div className="right-col">
-            <div className="right_container">Location Type</div>
-            <FormControl fullWidth>
+            <div className="right_container">Filter by Type</div>
+            <div className='drop_down_container'>
+            <FormControl className="drop_down">
               <Select
                 id="type_select"
                 value={type}
                 onChange={handleChange}
               >
-                <MenuItem value="Sightseeing/Attractions">Sightseeing/Attractions</MenuItem>
-                <MenuItem value="Restaurants/Cafes">Restaurants/Cafes</MenuItem>
-                <MenuItem value="Grocery/Specialty">Grocery/Specialty</MenuItem>
-                <MenuItem value="Shopping">Shopping</MenuItem>
-                <MenuItem value="Entertainment/Nightlife">Entertainment/Nightlife</MenuItem>
-                <MenuItem value="Beauty/Wellness">Beauty/Wellness</MenuItem>
-                <MenuItem value="Sports/Recreation">Sports/Recreation</MenuItem>
-                <MenuItem value="Work/Study Spaces">Work/Study Spaces</MenuItem>
+                <MenuItem value="Show All  全て表示">Show All  全て表示</MenuItem>
+                <MenuItem value="Sightseeing/Attractions  観光・名所">Sightseeing/Attractions  観光・名所</MenuItem>
+                <MenuItem value="Restaurants/Cafes  レストラン＆カフェ">Restaurants/Cafes  レストラン＆カフェ</MenuItem>
+                <MenuItem value="Grocery/Specialty  食料品店・専門店">Grocery/Specialty  食料品店・専門店</MenuItem>
+                <MenuItem value="Shopping  買い物">Shopping  買い物</MenuItem>
+                <MenuItem value="Entertainment/Nightlife  エンターテイメントとナイトライフ">Entertainment/Nightlife  エンターテイメントとナイトライフ</MenuItem>
+                <MenuItem value="Beauty/Wellness  美容＆セルフケア">Beauty/Wellness  美容＆セルフケア</MenuItem>
+                <MenuItem value="Sports/Recreation  スポーツ＆レクリエーション">Sports/Recreation  スポーツ＆レクリエーション</MenuItem>
+                <MenuItem value="Work/Study Spaces  勉強スペースと作業スペース">Work/Study Spaces  勉強スペースと作業スペース</MenuItem>
               </Select>
             </FormControl>
+            </div>
+          </div>
+          <div className="left-col">
+            <FormControlLabel
+              className="check_container"
+              control={<Checkbox sx={{ p: 0.5 }} />}
+              label="Kid-Friendly  子供に優しい"
+            />
+            <FormControlLabel
+              className="check_container"
+              control={<Checkbox sx={{ p: 0.5 }} />}
+              label="Dogs Allowed  犬可"
+            />
+            <FormControlLabel
+              className="check_container"
+              control={<Checkbox sx={{ p: 0.5 }} />}
+              label="Free Admission  無料入場"
+            />
+            <FormControlLabel
+              className="check_container"
+              control={<Checkbox sx={{ p: 0.5 }} />}
+              label="Japanese  日本人"
+            />
           </div>
         </div>
         <div className="map_container">
