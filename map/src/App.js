@@ -6,6 +6,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Select from '@mui/material/Select';
+import InputLabel from '@mui/material/InputLabel';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -58,16 +59,20 @@ function App() {
   return (
     <div className="App">
       <div className="main_card">
+        <div className='title_container'>
         <div className="title">オースティンのおすすめ地図 <br /> Austin Recommendations Map</div>
+        </div>
         <div className="tool_card">
           
           <div className="right-col">
-            <div className="right_container">Filter by Type</div>
             <div className='drop_down_container'>
             <FormControl className="drop_down">
+              <InputLabel id="demo-simple-select-label">Show Category</InputLabel>
               <Select
                 id="type_select"
                 value={type}
+                labelId="demo-simple-select-label"
+                label="Show Category"
                 onChange={handleChange}
               >
                 <MenuItem value="Show All  全て表示">Show All  全て表示</MenuItem>
