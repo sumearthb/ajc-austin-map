@@ -13,9 +13,12 @@ then
 fi
 
 echo "Installing project dependencies..."
-npm install
 
+npm install
 npm install @react-google-maps/api
+npm install @mui/material
+npm install @emotion/react @emotion/styled
+npm install -g gh-pages
 
 echo "Dependencies installed successfully."
 
