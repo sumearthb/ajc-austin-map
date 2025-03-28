@@ -13,10 +13,9 @@ then
 fi
 
 echo "Installing project dependencies..."
-
 npm install
+
 npm install @react-google-maps/api
-# npm install -g gh-pages
 
 echo "Dependencies installed successfully."
 
