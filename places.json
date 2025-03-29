@@ -664,6 +664,14 @@
       "description": "Higher education institution with a robust research program, set on a large campus with 4 museums.",
       "type": "Work/Study Spaces  勉強スペースと作業スペース",
       "tags": ""
+    },
+    {
+      "name": "Daiso",
+      "latitude": 30.23263,
+      "longitude": -97.82054,
+      "description": "Japanese variety-store chain featuring Japanese beauty products, housewares & snacks.",
+      "type": "Shopping  買い物",
+      "tags": "Kid-Friendly  子供に優しい, Japanese  日本人"
     }
   ]
   
