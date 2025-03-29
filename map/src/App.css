@@ -55,15 +55,45 @@
 
 .main-card {
   padding: 20px;
-  width: 60%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  height: 80%;
+}
+
+@media (max-width: 1400px) {
+  .main-card {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main-card {
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-card {
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .title {
   text-align: center;
-  font-size: 24px;
   font-weight: bold;
   font-family: 'UD新ゴ R JIS2004', sans-serif;
   color: #d9b917;
@@ -72,6 +102,24 @@
   width: 100%;
   height: 100%;
   z-index: 0;
+}
+
+@media (max-width: 3000px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 16px;
+  }
 }
 
 .title-container {
@@ -94,6 +142,20 @@
   color: #686868;
 }
 
+@media (max-height: 1000px)
+{
+  .tool-card {
+    gap: 12px;
+  }
+}
+
+@media (max-height: 800px)
+{
+  .tool-card {
+    gap: 5px;
+  }
+}
+
 .left-col {
   display: flex;
   flex-direction: row;
@@ -114,6 +176,7 @@
   text-align: center;
   padding: 2px;
   justify-content: center;
+  width: 100%;
 }
 
 .map-container {
@@ -121,10 +184,12 @@
   width: 100%;
   justify-content: center;
   border-radius: 1px;
+  height: 100%;
 }
 .map {
   width: 100%;
   border-radius: 1px;
+  height: 80%;
 }
 
 .check-container {
@@ -133,9 +198,50 @@
   height: 24px;
 }
 
-.check-container .MuiTypography-root {
-  font-size: 0.875rem;
-  line-height: 1;
+@media (max-width: 3000px) {
+  .check-container .MuiTypography-root {
+    font-size: 16px;
+    line-height: 1;
+    transform: scale(1.0);
+  }
+}
+
+@media (max-width: 900px) {
+  .check-container .MuiTypography-root {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .check-container .MuiTypography-root {
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+@media (max-width: 600px) {
+  .check-container .MuiTypography-root {
+    font-size: 8px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .check-container .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .check-container .MuiSvgIcon-root {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .check-container .MuiSvgIcon-root {
+    font-size: 10px;
+  }
 }
 
 .right-container {
@@ -150,8 +256,59 @@
 }
 
 .drop-down {
-  width: 50vh;
+  width: 50%;
   justify-content: center;
+}
+
+@media (max-height : 700px) {
+  .drop-down {
+    transform: scale(.8);
+  }
+}
+
+
+@media (max-width : 550px) {
+  .drop-down {
+    transform: scale(.8);
+  }
+}
+
+
+
+@media (max-width : 1200px) {
+  .drop-down {
+    width: 70%;
+  }
+}
+
+@media (max-width : 700px) {
+  .drop-down {
+    width: 80%;
+  }
+}
+
+@media (max-width : 700px) {
+  .drop-down .MuiSelect-select.MuiInputBase-input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width : 500px) {
+  .drop-down .MuiSelect-select.MuiInputBase-input {
+    font-size: 12px;
+  }
+}
+
+@media (max-width : 400px) {
+  .drop-down .MuiSelect-select.MuiInputBase-input {
+    font-size: 10px;
+  }
+}
+
+@media (max-width : 550px) {
+  .drop-down {
+    width: 100%;
+  }
 }
 
 @keyframes App-logo-spin {
