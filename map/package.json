@@ -2,8 +2,7 @@
   "name": "map",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
-  "proxy": "http://localhost:3000",
+  "homepage": "https://sumearthb.github.io/ajc-austin-map",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
