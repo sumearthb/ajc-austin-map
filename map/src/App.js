@@ -20,7 +20,7 @@ function App() {
   });
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/places.json')
+    fetch('/ajc-austin-map/places.json')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
