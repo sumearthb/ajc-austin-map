@@ -2,9 +2,9 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the gh-pages branch (you can still deploy manually from the Actions tab)
   push:
-    branches: ["main"]
+    branches: ["gh-pages"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,8 +33,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          source: ./  # The root of your Jekyll project
+          destination: ./_site  # This is where the built site will go
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -46,6 +46,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages  # Ensure you are on the gh-pages branch for deployment
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # You should now deploy the `_site` folder to the gh-pages branch
+          # This makes the contents available on GitHub Pages.
+          branch: gh-pages  # Specify the gh-pages branch as the target
+          folder: _site  # The built Jekyll site that should be deployed
