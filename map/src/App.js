@@ -20,8 +20,13 @@ function App() {
   });
 
   useEffect(() => {
-    fetch('places.json')
-      .then(response => response.json())
+    fetch('/places.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then(data => {
         setPlaces(data.places);
         setFilteredPlaces(data.places);
