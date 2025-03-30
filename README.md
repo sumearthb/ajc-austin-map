@@ -1,6 +1,8 @@
 # AJC Map Application
 Interactive map displaying locations of interest for members of the Austin Japan Community.
 
+Application URL : https://sumearthb.github.io/ajc-austin-map/
+
 **************************************************************
 ### AJC IT Members Checklist
 
