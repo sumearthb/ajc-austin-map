@@ -2,7 +2,7 @@
 Interactive map displaying locations of interest for members of the Austin Japan Community.
 
 **************************************************************
-###AJC IT Members Checklist
+### AJC IT Members Checklist
 
 ⬜Accept Github repository invite.
 
