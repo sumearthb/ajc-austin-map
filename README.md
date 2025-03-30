@@ -17,9 +17,8 @@ Application URL : https://sumearthb.github.io/ajc-austin-map/
 ⬜Add link to the map application on AJC website.
 
 
-To learn more about how to modify the source code and transition control of the AJC Map Application
-to the AJC team please open the Technical Document included in the repository. You will find more details 
-on our suggested action items on Page 7.
+For guidance on modifying the source code and transitioning control of the AJC Map Application to the AJC team, 
+please refer to the Technical Document included in the repository. Detailed action items are available on Page 7.
 
 ****************************************************************
 
@@ -31,4 +30,21 @@ git clone <paste the copied URL> .
 cd map
 
 ./setup.sh
+
+****************************************************************
+
+## Redeploying the Application
+Any time you want to update the application URL with new changes you will need to push and redeploy.
+More detailed instructions can be found in the Technical Document starting on Page 12.
+
+git add .
+
+git commit -m "Pushing new changes"
+
+git push
+
+npm run build
+
+npm run deploy
+
 
